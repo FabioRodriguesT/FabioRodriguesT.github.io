@@ -2,12 +2,24 @@
   text-align: justify;
 }
 
+#home {
+  border-radius: 0px;
+}
+
+body {
+  background-color: #7c869c;
+}
+
 .navbar {
   margin: 0px;
 }
 
 .jumbotron-heading {
   text-decoration: none !important;
+}
+
+.container-home{
+  padding-top: 70px;
 }
 
 .foto-perfil {
@@ -91,5 +103,9 @@ html {
 
 .buttonCode {    
   border-radius: 0px 0px 0px 0px;
+}
+
+.btn-view {
+  margin-right: 4px; 
 }
 

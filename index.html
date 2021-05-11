@@ -8,22 +8,21 @@
   <title>Fábio Rodrigues</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/def4a52fe0.js" crossorigin="anonymous"></script>
-  
-   <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light colorSecondary">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark colorSecondary">
     <a class="navbar-brand text-Green" href="#">Fábio Rodrigues</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,37 +30,36 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-
-      </ul>
-      <ul class="navbar-nav">
-        <!-- <li class="navbar-item">
+      <ul class="navbar-nav ml-auto">
+        <li class="navbar-item">
           <a class="nav-link text-Green" href="#home">Início</a>
-        </li> -->
+        </li>        
         <li class="navbar-item">
           <a class="nav-link text-Green" href="#work">Projetos</a>
         </li>
         <li class="navbar-item">
           <a class="nav-link text-Green" href="#about">Sobre</a>
         </li>
-        <!-- <li class="navbar-item">
-          <a class="nav-link text-White" href="#work">Depoimentos</a>
+        <!-- 
+        <li class="navbar-item">
+          <a class="nav-link text-Green" href="#work">Depoimentos</a>
         </li>
         <li class="navbar-item">
-          <a class="nav-link text-White" href="#contact">Contato</a>
+          <a class="nav-link text-Green" href="#contact">Contato</a>
         </li> -->
       </ul>
     </div>
   </nav>
   <section class="jumbotron text-center colorPrimary" id="home">
-    <div class="container">
+    <div class="container-home">
       <img class="foto-perfil" src="./assets/img/perfil.png" alt="">
       <h1 class="jumbotron-heading text-White">Fábio Rodrigues</h1>
       <p class="lead text-White">Software Developer</p>
       <p>
         <a href="#contact" class="btn btn-dark my-2 text-Green colorSecondary">Contato</a>
       </p>
-      <a href="https://www.linkedin.com/in/f%C3%A1bio-rodrigues-teles-9b77b1123/" target="_blank"><i class="fab fa-linkedin text-White"></i></a>
+      <a href="https://www.linkedin.com/in/f%C3%A1bio-rodrigues-teles-9b77b1123/" target="_blank"><i
+          class="fab fa-linkedin text-White"></i></a>
       <a href="https://github.com/FabioRodriguesT" target="_blank"><i class="icons fab fa-github text-White"></i></a>
       <a href="https://api.whatsapp.com/send?phone=5534992835087&text=Fabio%20Rodrigues" target="_blank"><i
           class="icons fab fa-whatsapp text-White"></i></a>
@@ -79,7 +77,8 @@
               alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
               src="./assets/img/Projeto-Google-Glass.png" data-holder-rendered="true">
             <div class="card-body">
-              <p class="card-text">Projeto construído duranto o curso de HTML5 e CSS3, do Professor Gustavo Guanabara, no canal do Curso em Vídeo na plataforma do YouTube.</p>
+              <p class="card-text">Projeto construído duranto o curso de HTML5 e CSS3, do Professor Gustavo Guanabara,
+                no canal do Curso em Vídeo na plataforma do YouTube.</p>
               <!-- <ul>
                 <li>JavaScript</li>
                 <li>HTML</li>
@@ -89,10 +88,10 @@
               </ul> -->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="https://fabiorodriguest.github.io/Projeto-Google-Glass/" target="_blank"><button type="button"
-                      class="btn btn-sm text-Green colorSecondary buttonCode">Ver</button></a>
-                  <a href="https://github.com/FabioRodriguesT/Projeto-Google-Glass" target="_blank" ><button type="button"
-                      class="btn btn-sm text-Green colorSecondary buttonCode">Código</button></a>
+                  <a href="https://fabiorodriguest.github.io/Projeto-Google-Glass/" target="_blank"><button
+                      type="button" class="btn btn-sm text-Green colorSecondary buttonCode btn-view">Ver</button></a>
+                  <a href="https://github.com/FabioRodriguesT/Projeto-Google-Glass" target="_blank"><button
+                      type="button" class="btn btn-sm text-Green colorSecondary buttonCode">Código</button></a>
                 </div>
               </div>
             </div>
@@ -106,7 +105,8 @@
               alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
               src="./assets/img/Ecoleta-foto.png" data-holder-rendered="true">
             <div class="card-body">
-              <p class="card-text">Projeto construido durante o Next Level Week #01, utilizando tecnologias como html, css e react, com o objetivo de encontrar o posto de coleta de resíduos mais proximo de você.</p>
+              <p class="card-text">Projeto construido durante o Next Level Week #01, utilizando tecnologias como html,
+                css e react, com o objetivo de encontrar o posto de coleta de resíduos mais proximo de você.</p>
               <!-- <ul>
                 <li>JavaScript</li>
                 <li>HTML</li>
@@ -117,7 +117,7 @@
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="https://fabiorodriguest.github.io/nlw01/" target="_blank"><button type="button"
-                      class="btn btn-sm text-Green colorSecondary buttonCode">Ver</button></a>
+                      class="btn btn-sm text-Green colorSecondary buttonCode btn-view">Ver</button></a>
                   <a href="https://github.com/FabioRodriguesT/nlw01" target="_blank"><button type="button"
                       class="btn btn-sm  text-Green colorSecondary buttonCode">Código</button></a>
                 </div>
@@ -125,7 +125,7 @@
             </div>
           </div>
         </div>
-       
+
         <div class="col-md-6">
           <div class="card mb-4 shadow-sm colorPrimary">
             <img class="card-img-top"
@@ -133,7 +133,8 @@
               alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
               src="./assets/img/Proffy-foto.png" data-holder-rendered="true">
             <div class="card-body">
-              <p class="card-text text-White">Projeto construido durante o Next Level Week #02, utilizando tecnologias como html, css e react, com o objetivo de aproximar estudantes com professores freelance.</p>
+              <p class="card-text text-White">Projeto construido durante o Next Level Week #02, utilizando tecnologias
+                como html, css e react, com o objetivo de aproximar estudantes com professores freelance.</p>
               <!-- <ul>
                 <li>JavaScript</li>
                 <li>HTML</li>
@@ -144,7 +145,7 @@
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="https://fabiorodriguest.github.io/NLW-02/" target="_blank"><button type="button"
-                      class="btn btn-sm text-Green colorSecondary buttonCode">Ver</button></a>
+                      class="btn btn-sm text-Green colorSecondary buttonCode btn-view">Ver</button></a>
                   <a href="https://github.com/FabioRodriguesT/NLW-02" target="_blank"><button type="button"
                       class="btn btn-sm colorSecondary text-Green buttonCode">Código</button></a>
                 </div>
@@ -162,11 +163,13 @@
   <section class="jumbotron text-center colorPrimary" id="about">
     <div class="container">
       <h2 class="jumbotron-heading titlesWhite">Sobre mim</h2>
-      <p class="lead text-White"> Olá meu nome é Fábio Rodrigues Teles, tenho 28 anos, no começo do ano de 2020, começei a estudar programação devido a alta demanda de vagas no mercado, focando meus estudos em front-end, visando tecnologias como Node.js, ReactJS e React Native.
-      <br />
-     
-      Procuro oportunidade de primeiro emprego na área de desenvolvimento de software, com objetivo de seguir carreira
-      profissional.
+      <p class="lead text-White"> Olá meu nome é Fábio Rodrigues Teles, tenho 28 anos, no começo do ano de 2020, começei
+        a estudar programação devido a alta demanda de vagas no mercado, focando meus estudos em front-end, visando
+        tecnologias como Node.js, ReactJS e React Native.
+        <br />
+
+        Procuro oportunidade de primeiro emprego na área de desenvolvimento de software, com objetivo de seguir carreira
+        profissional.
       </p>
     </div>
   </section>
@@ -190,7 +193,9 @@
     <div>
       <div class="container-fluid container-email colorSecondary">
         <h3 class="text-center titlesGreen">Disponível para oportunidades</h3>
-        <a href="mailto:fabur13@gmail.com"><h4 class="text-center text-Green">fabur13@gmail.com</h4></a>
+        <a href="mailto:fabur13@gmail.com">
+          <h4 class="text-center text-Green">fabur13@gmail.com</h4>
+        </a>
       </div>
     </div>
   </section>
