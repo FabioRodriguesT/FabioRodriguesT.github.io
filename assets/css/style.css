@@ -2,10 +2,6 @@
   text-align: justify;
 }
 
-.buttonview {
-  margin-right: 4px; 
-}
-
 .containerhome {
   padding-top: 70px;
 }
@@ -105,9 +101,16 @@ html {
   padding: 0px 15px;
 }
 
-.buttonCode {    
-  border-radius: 0px 0px 0px 0px;
+
+.buttonview {
+  margin-right: 2px; 
+  border-radius: 12px 0px 0px 12px;
 }
+
+.buttoncode {   
+  border-radius: 0px 12px 12px 0px;
+}
+
 
 
 
